@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+*.egg-info/
+*.pot
+*.pyc
+__pycache__/
+
+# Build outputs
+build/
+dist/
+*.jar
+*.war
+*.aar
+.gradle/
+target/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Temporary
+tmp/
+temp/
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Docker
+.docker/
